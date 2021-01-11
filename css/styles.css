@@ -1,0 +1,114 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+  width: 30%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.first-line {
+  font-weight: 200;
+  margin: 0;
+}
+
+.second-line {
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 15px;
+  opacity: 70%;
+}
+
+
+.card-card {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  display: inline-block;
+  position: absolute;
+}
+
+.supervisor {
+  margin-left: 7%;
+  top: 48%;
+  left: 10%;
+}
+
+.team {
+  margin-left: 1.5%;
+  left: 38%;
+  bottom: 40%;
+}
+
+.karma {
+  margin-left: 1.5%;
+  left: 38%;
+  bottom: 5%;
+
+}
+
+.calculator {
+  margin-left: 1.5%;
+  margin-right: 3%;
+  right: 15%;
+  top: 48%;
+}
+
+.description {
+  margin-left: 6%;
+  margin-right: 3%;
+}
+
+.icon {
+  width: 20%;
+  margin-left: 74%;
+  margin-top: 8%;
+}
+
+.bar-cyan {
+  height: 3px;
+  background-color: hsl(180, 62%, 55%);
+}
+
+.bar-red {
+  height: 3px;
+  background-color: hsl(0, 78%, 62%);
+}
+
+.bar-orange {
+  height: 3px;
+  background-color: hsl(34, 97%, 64%);
+}
+
+.bar-blue {
+  height: 3px;
+  background-color: hsl(212, 86%, 64%);
+}
+
+@media (max-width: 1010px) {
+  .intro {
+    margin-top: 3%;
+    width: 90%;
+  }
+
+  .card-card {
+    position: static;
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  .description {
+    margin-top: 3%;
+    margin-right: 19%;
+
+  }
+
+  h3 {
+    margin-top: 4%;
+  }
+}
